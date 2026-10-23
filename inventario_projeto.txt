@@ -1,0 +1,440 @@
+﻿
+======================================================================
+01 - IDENTIFICACAO DO PROJETO
+======================================================================
+Projeto: Portal Academico 360
+Data: 2026-10-23 02:45:51
+Diretorio: C:\Users\User\Downloads\portal-academico-360-starter
+Computador: DESKTOP-16GA1K5
+Sistema: Microsoft Windows NT 10.0.26200.0
+Relatorio: inventario_projeto.txt
+
+======================================================================
+02 - AMBIENTE DE DESENVOLVIMENTO
+======================================================================
+[OK] git
+[AUSENTE] node
+[AUSENTE] npm.cmd
+[AUSENTE] pnpm.cmd
+[OK] python
+[OK] code
+[AUSENTE] gh
+Git : git version 2.56.0.windows.2
+
+======================================================================
+03 - CONTROLE DE VERSAO
+======================================================================
+
+>>> Branch atual
+main
+
+>>> Status completo
+?? package-lock.json
+?? tools/gitreverse/pnpm-workspace.yaml
+
+>>> Remotos
+origin	https://github.com/lucasrsantosdev/portal-academico-360.git (fetch)
+origin	https://github.com/lucasrsantosdev/portal-academico-360.git (push)
+
+>>> Ultimos 10 commits
+39a66b9 | 2026-10-23 | feat(web): implementar Portal Academico 360 v0.1
+b13b17c | 2026-10-23 | fix: evitar fechamento duplicado do stream SSE
+e4aed2a | 2026-10-23 | docs: levantamento inicial dos modulos academicos
+6e12b2a | 2026-10-23 | docs: atualizar README com auditoria e roadmap tecnico
+2e67762 | 2026-10-23 | merge: integrar projeto local ao repositorio GitHub
+143f6bd | 2026-10-23 | feat: estrutura inicial Portal Academico 360 com GitReverse
+ee18da5 | 2026-10-23 | Initial commit
+
+>>> Branches locais e remotas
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+>>> Quantidade de arquivos versionados
+184
+
+======================================================================
+04 - ESTRUTURA PRINCIPAL
+======================================================================
+[OK] apps
+[OK] apps\web
+[OK] apps\web\src
+[OK] apps\portal-demo
+[OK] docs
+[OK] docs\levantamento
+[OK] tools
+[OK] tools\gitreverse
+[AUSENTE] services
+[AUSENTE] packages
+[OK] .gitignore
+[OK] README.md
+[OK] publicar-github.ps1
+
+======================================================================
+05 - INVENTARIO DE ARQUIVOS
+======================================================================
+Total de arquivos analisados: 186
+
+Arquivos por extensao:
+.ts : 71
+.tsx : 31
+.md : 15
+.sql : 13
+.png : 9
+.svg : 7
+.html : 7
+.mjs : 6
+.json : 6
+.css : 4
+.yaml : 3
+.js : 3
+.mp4 : 2
+.gitignore : 2
+ : 2
+.yml : 2
+.jsx : 1
+.txt : 1
+.ps1 : 1
+
+Lista de arquivos:
+.gitignore | 102 bytes
+apps\portal-demo\app.js | 1942 bytes
+apps\portal-demo\index.html | 2524 bytes
+apps\portal-demo\style.css | 2817 bytes
+apps\web\index.html | 437 bytes
+apps\web\package.json | 364 bytes
+apps\web\package-lock.json | 58548 bytes
+apps\web\src\data.js | 1516 bytes
+apps\web\src\main.jsx | 14419 bytes
+apps\web\src\style.css | 15073 bytes
+apps\web\vite.config.js | 163 bytes
+docs\ENTREGA-V0.md | 2201 bytes
+docs\levantamento\CUR-001-meu-curso.md | 1250 bytes
+docs\levantamento\DISC-001-disciplinas.md | 1198 bytes
+docs\levantamento\FIN-001-financeiro.md | 1365 bytes
+docs\levantamento\HOME-001-dashboard.md | 1384 bytes
+docs\PLANO.md | 820 bytes
+package-lock.json | 107 bytes
+publicar-github.ps1 | 1436 bytes
+README.md | 4855 bytes
+tools\gitreverse\.cursor\commands\smart-deploy.md | 730 bytes
+tools\gitreverse\.github\workflows\library-search.yml | 955 bytes
+tools\gitreverse\.github\workflows\sponsorship.yml | 1297 bytes
+tools\gitreverse\.gitignore | 641 bytes
+tools\gitreverse\AGENTS.md | 327 bytes
+tools\gitreverse\app\[owner]\[repo]\page.tsx | 3306 bytes
+tools\gitreverse\app\[owner]\[repo]\tree\[[...path]]\page.tsx | 870 bytes
+tools\gitreverse\app\api\admin\backfill-embeddings\route.ts | 1442 bytes
+tools\gitreverse\app\api\admin\backfill-titles\route.ts | 1563 bytes
+tools\gitreverse\app\api\admin\grant-test-credits\route.ts | 1756 bytes
+tools\gitreverse\app\api\cancel-subscription\route.ts | 5507 bytes
+tools\gitreverse\app\api\change-plan\route.ts | 352 bytes
+tools\gitreverse\app\api\check-subscription\route.ts | 553 bytes
+tools\gitreverse\app\api\create-checkout\route.ts | 2455 bytes
+tools\gitreverse\app\api\create-credit-checkout\route.ts | 2308 bytes
+tools\gitreverse\app\api\create-partner-checkout\route.ts | 1781 bytes
+tools\gitreverse\app\api\increment-views\route.ts | 1952 bytes
+tools\gitreverse\app\api\library\route.ts | 2244 bytes
+tools\gitreverse\app\api\reverse-prompt\route.ts | 16943 bytes
+tools\gitreverse\app\api\reverse-website\route.ts | 4602 bytes
+tools\gitreverse\app\api\subscription-status\route.ts | 729 bytes
+tools\gitreverse\app\api\tls-check\route.ts | 825 bytes
+tools\gitreverse\app\api\user-history\route.ts | 4434 bytes
+tools\gitreverse\app\api\verify-credit-purchase\route.ts | 3202 bytes
+tools\gitreverse\app\api\verify-subscription\route.ts | 1228 bytes
+tools\gitreverse\app\api\website-design\[slug]\route.ts | 1478 bytes
+tools\gitreverse\app\auth\callback\layout.tsx | 269 bytes
+tools\gitreverse\app\auth\callback\page.tsx | 2194 bytes
+tools\gitreverse\app\designs\[slug]\page.tsx | 3061 bytes
+tools\gitreverse\app\globals.css | 472 bytes
+tools\gitreverse\app\history\page.tsx | 334 bytes
+tools\gitreverse\app\icon.png | 4976 bytes
+tools\gitreverse\app\icon.svg | 649 bytes
+tools\gitreverse\app\layout.tsx | 1628 bytes
+tools\gitreverse\app\library\page.tsx | 2698 bytes
+tools\gitreverse\app\not-found.tsx | 1101 bytes
+tools\gitreverse\app\opengraph-image.tsx | 2194 bytes
+tools\gitreverse\app\page.tsx | 1326 bytes
+tools\gitreverse\app\partner\page.tsx | 614 bytes
+tools\gitreverse\app\robots.ts | 326 bytes
+tools\gitreverse\app\sitemap.ts | 1243 bytes
+tools\gitreverse\app\sponsor\page.tsx | 1710 bytes
+tools\gitreverse\app\website\[slug]\page.tsx | 865 bytes
+tools\gitreverse\caddy\Caddyfile | 907 bytes
+tools\gitreverse\caddy\cloud-init.yaml | 1230 bytes
+tools\gitreverse\CLAUDE.md | 11 bytes
+tools\gitreverse\components\afterpack-banner.tsx | 1195 bytes
+tools\gitreverse\components\coderabbit-banner.tsx | 3359 bytes
+tools\gitreverse\components\history-page.tsx | 7279 bytes
+tools\gitreverse\components\json-ld.tsx | 241 bytes
+tools\gitreverse\components\library-page.tsx | 19626 bytes
+tools\gitreverse\components\navbar.tsx | 21384 bytes
+tools\gitreverse\components\partner-button.tsx | 1496 bytes
+tools\gitreverse\components\partner-checkout-form.tsx | 5178 bytes
+tools\gitreverse\components\partner-page.tsx | 4050 bytes
+tools\gitreverse\components\partner-screenshots.tsx | 5151 bytes
+tools\gitreverse\components\prompt-markdown.tsx | 2211 bytes
+tools\gitreverse\components\reverse-generation-flavor-text.tsx | 1668 bytes
+tools\gitreverse\components\reverse-prompt-home.tsx | 25712 bytes
+tools\gitreverse\components\uno-reverse-logo.tsx | 1374 bytes
+tools\gitreverse\components\website-design-flavor-text.tsx | 1826 bytes
+tools\gitreverse\components\website-reverse-page.tsx | 11802 bytes
+tools\gitreverse\contexts\AuthContext.tsx | 3387 bytes
+tools\gitreverse\docs\sponsorship-analytics.md | 12200 bytes
+tools\gitreverse\docs\sponsorship-checkout.md | 4853 bytes
+tools\gitreverse\docs\sql\sponsorship-audience-index.sql | 558 bytes
+tools\gitreverse\docs\sql\sponsorship-audience-regression.sql | 9140 bytes
+tools\gitreverse\docs\sql\sponsorship-audience-rpc.sql | 3226 bytes
+tools\gitreverse\eslint.config.mjs | 465 bytes
+tools\gitreverse\lib\assets\DESIGN.template.md | 4932 bytes
+tools\gitreverse\lib\auth-request.ts | 1984 bytes
+tools\gitreverse\lib\azure-openai.ts | 8674 bytes
+tools\gitreverse\lib\billing-config.ts | 6735 bytes
+tools\gitreverse\lib\context-dev-client.ts | 3851 bytes
+tools\gitreverse\lib\embeddings.ts | 3188 bytes
+tools\gitreverse\lib\file-tree-formatter.ts | 3680 bytes
+tools\gitreverse\lib\firecrawl-client.ts | 2895 bytes
+tools\gitreverse\lib\github-client.ts | 5898 bytes
+tools\gitreverse\lib\home-example-repos.ts | 1418 bytes
+tools\gitreverse\lib\library-query.ts | 15960 bytes
+tools\gitreverse\lib\library-types.ts | 3004 bytes
+tools\gitreverse\lib\parse-github-repo.ts | 1407 bytes
+tools\gitreverse\lib\parse-website-input.ts | 1398 bytes
+tools\gitreverse\lib\parse-website-reverse-host.ts | 919 bytes
+tools\gitreverse\lib\partner-preview.ts | 3382 bytes
+tools\gitreverse\lib\premium-subscription.ts | 751 bytes
+tools\gitreverse\lib\prompt-cache-embedding.ts | 2838 bytes
+tools\gitreverse\lib\prompt-cache-title.ts | 4617 bytes
+tools\gitreverse\lib\quick-llm.ts | 11838 bytes
+tools\gitreverse\lib\site-url.ts | 2001 bytes
+tools\gitreverse\lib\sponsorship-analytics.ts | 2171 bytes
+tools\gitreverse\lib\sponsorship-checkout.ts | 5167 bytes
+tools\gitreverse\lib\sponsorship-config.ts | 1350 bytes
+tools\gitreverse\lib\stripe-checkout-navigate.ts | 2371 bytes
+tools\gitreverse\lib\subscriber.ts | 5799 bytes
+tools\gitreverse\lib\subscriber-constants.ts | 152 bytes
+tools\gitreverse\lib\subscription-status-client.ts | 815 bytes
+tools\gitreverse\lib\supabase.ts | 989 bytes
+tools\gitreverse\lib\supabase-auth.ts | 1211 bytes
+tools\gitreverse\lib\swap-llm.ts | 563 bytes
+tools\gitreverse\lib\system-prompt.ts | 2249 bytes
+tools\gitreverse\lib\use-app-href.ts | 398 bytes
+tools\gitreverse\lib\use-partner-preview.ts | 452 bytes
+tools\gitreverse\lib\user-history.ts | 3475 bytes
+tools\gitreverse\lib\visitor-ip.ts | 1785 bytes
+tools\gitreverse\lib\website-design-system-prompt.ts | 1578 bytes
+tools\gitreverse\lib\website-prompt-utils.ts | 710 bytes
+tools\gitreverse\lib\website-reverse-engine.ts | 6687 bytes
+tools\gitreverse\lib\website-reverse-storage.ts | 1939 bytes
+tools\gitreverse\lib\website-reverse-system-prompt.ts | 1724 bytes
+tools\gitreverse\lib\website-scraper.ts | 2504 bytes
+tools\gitreverse\LICENSE | 1090 bytes
+tools\gitreverse\next.config.ts | 260 bytes
+tools\gitreverse\next-env.d.ts | 257 bytes
+tools\gitreverse\package.json | 1015 bytes
+tools\gitreverse\pnpm-lock.yaml | 170894 bytes
+tools\gitreverse\pnpm-workspace.yaml | 67 bytes
+tools\gitreverse\postcss.config.mjs | 94 bytes
+tools\gitreverse\proxy.ts | 1219 bytes
+tools\gitreverse\public\.well-known\ory-verify.txt | 50 bytes
+tools\gitreverse\public\arcumet-icon.png | 1185497 bytes
+tools\gitreverse\public\design\01-segmented.html | 5078 bytes
+tools\gitreverse\public\design\02-block-tabs.html | 4789 bytes
+tools\gitreverse\public\design\03-underline-tabs.html | 4837 bytes
+tools\gitreverse\public\design\04-result-cross.html | 5399 bytes
+tools\gitreverse\public\design\index.html | 3311 bytes
+tools\gitreverse\public\design\shared.css | 11038 bytes
+tools\gitreverse\public\file.svg | 391 bytes
+tools\gitreverse\public\globe.svg | 1035 bytes
+tools\gitreverse\public\next.svg | 1375 bytes
+tools\gitreverse\public\partner\builder-clicks.png | 16630 bytes
+tools\gitreverse\public\partner\build-this.mp4 | 995341 bytes
+tools\gitreverse\public\partner\design-this.mp4 | 969844 bytes
+tools\gitreverse\public\partner\events.png | 16350 bytes
+tools\gitreverse\public\partner\traffic.png | 38951 bytes
+tools\gitreverse\public\sponsors\afterpack.svg | 39713 bytes
+tools\gitreverse\public\sponsors\afterpack-mark.png | 5691 bytes
+tools\gitreverse\public\sponsors\arcumet.png | 7305 bytes
+tools\gitreverse\public\sponsors\coderabbit.png | 1761 bytes
+tools\gitreverse\public\sponsors\make-design.png | 8890 bytes
+tools\gitreverse\public\sponsors\SOURCES.md | 736 bytes
+tools\gitreverse\public\vercel.svg | 128 bytes
+tools\gitreverse\public\window.svg | 385 bytes
+tools\gitreverse\README.md | 4381 bytes
+tools\gitreverse\scripts\apply-title-migration.mjs | 3061 bytes
+tools\gitreverse\scripts\backfill-premium-user-ids.mjs | 2804 bytes
+tools\gitreverse\scripts\generate-titles.mjs | 8321 bytes
+tools\gitreverse\scripts\test-titles.mjs | 7506 bytes
+tools\gitreverse\supabase\migrations\20260525000000_add_prompt_cache_title.sql | 123 bytes
+tools\gitreverse\supabase\migrations\20260604120000_premium_by_user_id.sql | 737 bytes
+tools\gitreverse\supabase\migrations\20260608081500_billing_plans_and_usage.sql | 10219 bytes
+tools\gitreverse\supabase\migrations\20260621142000_single_paid_plan_reset.sql | 6026 bytes
+tools\gitreverse\supabase\migrations\20260706120000_pay_per_use_credits.sql | 11676 bytes
+tools\gitreverse\supabase\migrations\20260706140000_fix_credit_reconcile_without_line_items.sql | 2476 bytes
+tools\gitreverse\supabase\migrations\20260713140000_website_reverse_cache.sql | 733 bytes
+tools\gitreverse\supabase\migrations\20260717120000_library_browse_indexes_and_views.sql | 1020 bytes
+tools\gitreverse\supabase\migrations\20260721120000_website_swap_cache.sql | 785 bytes
+tools\gitreverse\supabase\migrations\20260724120000_profile_reverse_cache.sql | 1714 bytes
+tools\gitreverse\tests\library-query.test.ts | 9118 bytes
+tools\gitreverse\tests\sponsorship-analytics.test.ts | 1719 bytes
+tools\gitreverse\tests\sponsorship-checkout.test.ts | 4447 bytes
+tools\gitreverse\tests\sponsorship-route.test.ts | 1233 bytes
+tools\gitreverse\tests\sponsorship-sql.test.ts | 1832 bytes
+tools\gitreverse\tests\sponsorship-ui.test.ts | 4729 bytes
+tools\gitreverse\title-test.json | 19749 bytes
+tools\gitreverse\tsconfig.json | 666 bytes
+
+======================================================================
+06 - PORTAL WEB REACT V0.1
+======================================================================
+[OK] Portal Web encontrado
+Nome: portal-academico-360-web
+Versao: 0.1.0
+Tipo: module
+
+Scripts:
+dev = vite --host 127.0.0.1
+build = vite build
+preview = vite preview --host 127.0.0.1
+
+Dependencias:
+@vitejs/plugin-react = ^4.7.0
+vite = ^6.4.0
+react = ^19.1.0
+react-dom = ^19.1.0
+lucide-react = ^0.468.0
+
+DevDependencies:
+
+Arquivos da aplicacao:
+apps\web\index.html
+apps\web\package-lock.json
+apps\web\package.json
+apps\web\vite.config.js
+apps\web\src\data.js
+apps\web\src\main.jsx
+apps\web\src\style.css
+
+Rotas, modulos e elementos identificados:
+dashboard : 2 ocorrencias
+financeiro : 5 ocorrencias
+disciplinas : 6 ocorrencias
+curso : 6 ocorrencias
+secretaria : 2 ocorrencias
+solicitacoes : 0 ocorrencias
+notas : 5 ocorrencias
+mensalidades : 2 ocorrencias
+navigate : 7 ocorrencias
+URLSearchParams : 1 ocorrencias
+useState : 2 ocorrencias
+useEffect : 0 ocorrencias
+localStorage : 0 ocorrencias
+fetch\( : 0 ocorrencias
+
+======================================================================
+07 - GITREVERSE
+======================================================================
+[OK] GitReverse encontrado
+Nome: gitreverse
+Versao: 0.1.0
+Scripts:
+dev = next dev
+build = next build
+start = next start
+lint = eslint
+test:titles = node --env-file=.env.local scripts/test-titles.mjs
+db:migrate:title = node --env-file=.env.local scripts/apply-title-migration.mjs
+test:library = node --import tsx --test tests/library-*.test.ts
+
+Componentes:
+[OK] C:\Users\User\Downloads\portal-academico-360-starter\tools\gitreverse\app
+[OK] C:\Users\User\Downloads\portal-academico-360-starter\tools\gitreverse\app\api
+[OK] C:\Users\User\Downloads\portal-academico-360-starter\tools\gitreverse\lib
+[OK] C:\Users\User\Downloads\portal-academico-360-starter\tools\gitreverse\public
+[OK] C:\Users\User\Downloads\portal-academico-360-starter\tools\gitreverse\tests
+[OK] C:\Users\User\Downloads\portal-academico-360-starter\tools\gitreverse\supabase
+[OK] C:\Users\User\Downloads\portal-academico-360-starter\tools\gitreverse\scripts
+[OK] C:\Users\User\Downloads\portal-academico-360-starter\tools\gitreverse\pnpm-lock.yaml
+[OK] C:\Users\User\Downloads\portal-academico-360-starter\tools\gitreverse\pnpm-workspace.yaml
+
+Arquivos versionados do GitReverse:
+165 arquivos
+
+Configuracoes de build permitidas:
+allowBuilds:
+  esbuild: true
+  sharp: false
+  unrs-resolver: false
+
+======================================================================
+08 - DOCUMENTACAO
+======================================================================
+docs\ENTREGA-V0.md
+docs\PLANO.md
+docs\levantamento\CUR-001-meu-curso.md
+docs\levantamento\DISC-001-disciplinas.md
+docs\levantamento\FIN-001-financeiro.md
+docs\levantamento\HOME-001-dashboard.md
+
+README.md:
+Caracteres: 4855
+Linhas: 91
+Titulos encontrados:
+# Portal AcadÃªmico 360
+## Objetivo
+## Estrutura do repositÃ³rio
+## Como testar o portal demonstrativo
+## GitReverse (ferramenta separada)
+# Configure somente as variÃ¡veis necessÃ¡rias em .env.local
+## Auditoria inicial (23/10/2026)
+## PrÃ³ximas etapas
+## Limites e atribuiÃ§Ã£o
+
+======================================================================
+09 - SEGURANCA E CONFIGURACOES
+======================================================================
+.gitignore:
+**/.env
+**/.env.local
+**/.env.*.local
+**/node_modules/
+**/.next/
+**/dist/
+**/.vercel/
+*.log
+.DS_Store
+
+Arquivos de ambiente encontrados (somente nomes):
+[LOCAL] tools\gitreverse\.env.local
+
+Verificacao de arquivos rastreados sensiveis:
+[OK] Nenhum .env real rastreado pelo Git
+
+======================================================================
+10 - ESTADO TECNICO
+======================================================================
+[OK] apps\web\package.json
+[OK] apps\web\src\main.jsx
+[OK] apps\web\src\style.css
+[OK] apps\web\src\data.js
+[OK] apps\portal-demo\index.html
+[OK] tools\gitreverse\package.json
+[OK] docs\ENTREGA-V0.md
+[OK] README.md
+
+======================================================================
+11 - LIMITACOES DA AUDITORIA
+======================================================================
+Este inventario verifica estrutura, configuracoes e codigo.
+Nao comprova funcionamento de todas as funcionalidades.
+Nao executa testes automatizados ou build.
+Nao verifica seguranca de producao.
+Nao acessa sistemas externos ou dados institucionais.
+Resultados de build e testes devem ser registrados separadamente.
+
+======================================================================
+12 - FINALIZACAO
+======================================================================
+Inventario tecnico concluido.
+Nenhum arquivo de codigo foi alterado.
+Arquivo gerado: C:\Users\User\Downloads\portal-academico-360-starter\inventario_projeto.txt
