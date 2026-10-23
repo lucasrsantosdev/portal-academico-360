@@ -72,7 +72,6 @@ async function executeWebsiteReverse(opts: {
 
         if (!result.ok) {
           send("error", { error: result.error });
-          controller.close();
           return;
         }
 
